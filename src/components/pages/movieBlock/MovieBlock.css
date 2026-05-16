@@ -1,0 +1,47 @@
+.movie-block{
+    padding-top: 100px;
+    color: white;
+    z-index: 1020;
+    
+}
+.movie-poster{
+    width: 150px;
+}
+.carousel{
+    margin: 5px auto;
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+.movie{
+    flex: 0 0 5em;
+    height: 19em;
+    padding: 1em;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+    
+}
+.movie-title{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  border: none;
+  background-color:rgba(255, 255, 255, 0) ;
+  color: white;
+  margin: auto;
+  font-weight: 600;
+  font-size:15px;
+  padding-top: 10px;
+}

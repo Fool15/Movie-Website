@@ -1,0 +1,6 @@
+.all-movies-con{
+    display: grid;
+    grid-template-columns: repeat(7,200px);
+    justify-content: center;
+    margin-top: 230px;
+}
